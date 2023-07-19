@@ -1,5 +1,10 @@
 {
     "name": "hexlet/code",
+    "description": "Brain games",
+    "license": "MIT",
+    "bin": [
+        "bin/brain-games"
+    ],
     "authors": [
         {
             "name": "AlexeyGoncharenko"
