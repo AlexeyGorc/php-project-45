@@ -22,7 +22,7 @@ function gameCalc(): void
     /**
      * @throws \Exception
      */
-    $newCalcRound = function () {
+    $gameData = function () {
         $operators = ['+', '-', '*'];
         $num1 = random_int(1, 50);
         $num2 = random_int(1, 50);
@@ -31,6 +31,5 @@ function gameCalc(): void
         $question = ("{$num1} {$operator} {$num2}");
         return [$question, $correctAnswer];
     };
-    run(RULES, $newCalcRound);
+    run(RULES, $gameData);
 }
-
