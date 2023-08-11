@@ -2,8 +2,6 @@
 
 namespace BrainGames\Progression;
 
-use Exception;
-
 use function BrainGames\Engine\run;
 
 const RULES = "What number is missing in the progression?";
@@ -14,16 +12,14 @@ function progression(int $length, int $firstNum, int $step): array
 
     for ($i = 0; $i <= $length; $i += 1) {
         $nextNum = $firstNum + ($step * $i);
-        array_push($progression, $nextNum);
+        $progression[] = $nextNum;
     }
     return $progression;
 }
 
-function gameProgression(): void
+function gameProgression()
 {
-    /**
-     * @throws Exception
-     */
+
     $gameData = function () {
         $length = random_int(5, 10);
         $firstNum = random_int(1, 20);
