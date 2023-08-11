@@ -8,7 +8,7 @@ use const BrainGames\Engine\ROUNDS;
 
 const RULES = "Answer \"yes\" if the number is even, otherwise answer \"no\".";
 
-function isEven(int $num): int
+function isEven(int $num)
 {
     return $num % 2 === 0;
 }
