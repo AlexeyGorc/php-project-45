@@ -13,7 +13,7 @@ function isEven(int $num): int
     return $num % 2 === 0;
 }
 
-function gameEven(): void
+function gameEven()
 {
     /**
      * @throws \Exception
