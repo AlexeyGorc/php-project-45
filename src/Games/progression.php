@@ -3,6 +3,7 @@
 namespace BrainGames\Progression;
 
 use Exception;
+
 use function BrainGames\Engine\run;
 
 const RULES = "What number is missing in the progression?";
