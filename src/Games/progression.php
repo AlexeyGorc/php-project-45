@@ -25,7 +25,7 @@ function gameProgression()
         $firstNum = random_int(1, 20);
         $step = random_int(1, 10);
         $progression = progression($length, $firstNum, $step);
-        $hiddenIndex = random_int(0, count($progression) - 1);
+        $hiddenIndex = rand(0, count($progression) - 1);
         $correctAnswer = $progression[$hiddenIndex];
         $progression[$hiddenIndex] = '..';
         $question = implode(' ', $progression);
