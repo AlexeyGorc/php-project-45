@@ -9,6 +9,6 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function BrainGames\Cli\getName;
+use function BrainGames\Cli\message;
 
-getName();
+message();
