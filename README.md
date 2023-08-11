@@ -26,6 +26,7 @@ Brain Games is a set of five console games based on popular mobile brain trainin
 ````
 git clone git@github.com:AlexeyGorc/php-project-45.git
 ````
+
 ````
 cd php-project-45
 ````
@@ -35,6 +36,7 @@ make install
 ````
 
 <h2>Launching games:</h2>
+
 ````
 make brain-even
 
