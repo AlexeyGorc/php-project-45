@@ -1,4 +1,5 @@
 <?php
+
 namespace BrainGames\Even;
 
 use function BrainGames\Engine\run;

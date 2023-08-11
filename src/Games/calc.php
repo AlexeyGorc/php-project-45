@@ -1,4 +1,5 @@
 <?php
+
 namespace BrainGames\Calc;
 
 use function BrainGames\Engine\run;
