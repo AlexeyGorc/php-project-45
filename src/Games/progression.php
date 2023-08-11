@@ -32,7 +32,7 @@ function gameProgression(): void
         $maxHiddenIndex = count($progression) - 1;
         $hiddenIndex = random_int(0, $maxHiddenIndex);
         $correctAnswer = $progression[$hiddenIndex];
-        $progression[$hiddenIndex] = '...';
+        $progression[$hiddenIndex] = '..';
         $question = implode(' ', $progression);
 
         return [$question, $correctAnswer];
