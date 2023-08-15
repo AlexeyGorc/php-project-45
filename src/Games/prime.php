@@ -21,7 +21,7 @@ function isPrime(int $num): bool
     return true;
 }
 
-function gamePrime(): void
+function runPrime(): void
 {
     $gameData = function () {
         $question = random_int(1, 100);

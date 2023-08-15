@@ -13,11 +13,8 @@ function isEven(int $num)
     return $num % 2 === 0;
 }
 
-function gameEven()
+function runEven()
 {
-    /**
-     * @throws \Exception
-     */
     $gameData = function () {
             $question = random_int(1, 100);
             $correctAnswer = isEven($question) ? 'yes' : 'no';

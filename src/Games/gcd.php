@@ -22,7 +22,7 @@ function findGreatestDivisor(int $num1, int $num2)
 /**
  * @throws \Exception
  */
-function gameGcd()
+function runGcd()
 {
     $gameData = function () {
         $num1 = random_int(1, 100);

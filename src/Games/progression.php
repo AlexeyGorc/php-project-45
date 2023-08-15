@@ -17,7 +17,7 @@ function progression(int $length, int $firstNum, int $step): array
     return $progression;
 }
 
-function gameProgression()
+function runProgression()
 {
 
     $gameData = function () {
