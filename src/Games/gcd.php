@@ -19,9 +19,6 @@ function findGreatestDivisor(int $num1, int $num2)
     return true;
 }
 
-/**
- * @throws \Exception
- */
 function runGcd()
 {
     $gameData = function () {
